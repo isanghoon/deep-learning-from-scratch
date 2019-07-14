@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys, os
-sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))    # 부모 디렉터리의 파일을 가져올 수 있도록 설정
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))    # 부모 디렉터리의 파일을 가져올 수 있도록 설정 
 import numpy as np
 from dataset.mnist import load_mnist
 from PIL import Image
